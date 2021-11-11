@@ -1,0 +1,44 @@
+.grillaproductos{
+    display: grid;
+    padding: 1rem;
+    grid-gap: 1rem;
+    grid-template-columns: 30% 30% 30;    
+    grid-template-rows: 50%  ;
+    grid-template-areas:
+    
+    "computadoras redes perifericos"    
+}
+
+.estiloproductos{
+    font-size: 200%;  
+    text-align: center;  
+    color: rgb(0, 183, 255);
+}
+
+.estilocomputadoras{
+    background-image: url(./img/computadoras.jpg);           
+    grid-area: computadoras;
+}
+
+.estiloredes{
+    background-image: url(./img/redes.jpg);   
+     
+    grid-area:redes;  
+}
+
+.estiloperifericos{
+    background-image: url(./img/perifericos.jpg); 
+    
+    grid-area:perifericos;
+}
+
+.marcoslistas{
+    font-family:Verdana, Geneva, Tahoma, sans-serif, cursive;
+    padding: 2rem;  
+    caption-side: top;
+    color: rgb(15, 114, 6);
+    text-align: center;
+    line-height: 2rem;
+    column-gap:inherit;
+    width: 50%;  
+  }

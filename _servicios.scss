@@ -1,0 +1,26 @@
+.grillaservicios{
+    display: grid;
+    padding: 1rem;
+    grid-gap: 1rem;
+    grid-template-columns: 50% 49%;
+    grid-template-rows: 50%;
+    grid-template-areas:
+    
+    "servtecnico consultoria"   
+}
+
+.estiloservicios{
+    font-size: 200%;  
+    text-align: center;  
+    color: rgb(0, 183, 255);
+}
+
+.estiloserviciotecnico{
+    background-image: url(./img/serviciotecnico.jpg);        
+    grid-area:servtecnico;
+}
+
+.estiloconsultoria{
+    background-image: url(./img/consultoria.jpg);    
+    grid-area:consultoria;
+}

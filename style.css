@@ -1,0 +1,160 @@
+.fondomarca {
+  background-image: url(./img/fondomarca2.jpg);
+  background-size: cover;
+  padding: 20%;
+}
+
+.fondoproductos {
+  background-image: url(./img/productos.jpg);
+  background-size: cover;
+  width: 50%;
+  padding: 15%;
+}
+
+.fondoservicios {
+  background-image: url(./img/servicios.jpg);
+  background-size: cover;
+  width: 50%;
+  padding: 15%;
+}
+
+.fondofertas {
+  background-image: url(./img/perifericos.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.carousel {
+  width: 75%;
+  left: 12%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*/////////////////////////////////////////////////*/
+.grillaproductos {
+  display: -ms-grid;
+  display: grid;
+  padding: 1rem;
+  grid-gap: 1rem;
+  -ms-grid-columns: 30% 30% 30;
+      grid-template-columns: 30% 30% 30;
+  -ms-grid-rows: 50%;
+      grid-template-rows: 50%;
+      grid-template-areas: "computadoras redes perifericos";
+}
+
+.estiloproductos {
+  font-size: 200%;
+  text-align: center;
+  color: #00b7ff;
+}
+
+.estilocomputadoras {
+  background-image: url(./img/computadoras.jpg);
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: computadoras;
+}
+
+.estiloredes {
+  background-image: url(./img/redes.jpg);
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: redes;
+}
+
+.estiloperifericos {
+  background-image: url(./img/perifericos.jpg);
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: perifericos;
+}
+
+.marcoslistas {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+  padding: 2rem;
+  caption-side: top;
+  color: #0f7206;
+  text-align: center;
+  line-height: 2rem;
+  -webkit-column-gap: inherit;
+          column-gap: inherit;
+  width: 50%;
+}
+
+.grillaservicios {
+  display: -ms-grid;
+  display: grid;
+  padding: 1rem;
+  grid-gap: 1rem;
+  -ms-grid-columns: 50% 49%;
+      grid-template-columns: 50% 49%;
+  -ms-grid-rows: 50%;
+      grid-template-rows: 50%;
+      grid-template-areas: "servtecnico consultoria";
+}
+
+.estiloservicios {
+  font-size: 200%;
+  text-align: center;
+  color: #00b7ff;
+}
+
+.estiloserviciotecnico {
+  background-image: url(./img/serviciotecnico.jpg);
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: servtecnico;
+}
+
+.estiloconsultoria {
+  background-image: url(./img/consultoria.jpg);
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: consultoria;
+}
+
+.estilotienda {
+  padding: 14rem;
+  font-family: teko,Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  color: #1caa4b;
+  text-align: center;
+}
+
+.estiloacercade {
+  background-image: url(./img/acercade.jpg);
+  font-size: 220%;
+  color: #55dbdb;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 26rem;
+  text-align: center;
+}
+
+.estilomapa {
+  font-size: 220%;
+  color: #8455db;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 5%;
+}
+
+ul {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* AJUSTES GENERALES: INICIO ///////////////////////////////////////////////////////////////////////////*/
+* {
+  Margin: 0;
+  padding: 0;
+}
+
+.fondo {
+  background-image: url(./img/cielo.jpg);
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */

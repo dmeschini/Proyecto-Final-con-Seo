@@ -1,0 +1,5 @@
+1-mejora de títulos de páginas, corregidos los que estaban mal.
+2-Añadido de etiquetas meta de forma conveniente.
+3-revisado los encabezados
+4-revisada la correcta navegación y funcionamiento del menú.
+5-mapa basico del sitio

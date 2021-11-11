@@ -1,0 +1,17 @@
+@import "home";
+@import "productos";
+@import "servicios";
+@import "contacto";
+@import "tienda";
+@import "acercade";
+@import "mapa";
+
+/* AJUSTES GENERALES: INICIO ///////////////////////////////////////////////////////////////////////////*/
+* {
+    Margin:0;
+    padding:0;
+ }  
+
+  .fondo{     
+     background-image: url(./img/cielo.jpg);
+     background-size: cover; }
